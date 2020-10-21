@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTERATION PAGE</title>
+</head>
+<body>
+    <h1>REGISTERATION PAGE</h1>
+        <a href="Home.html">HOME</a>
+        <a href="Login.html">LOGIN</a>
+         <br>
+         <hr>
+     <form action="POST">
+         <div>
+             <label for="">FULL-NAME</label>
+                 <input type="text" name="Full-name" placeholder="enter full-name">
+             
+         </div>
+         <br>
+         <div>
+             <label for="">USERNAME</label>
+                 <input type="text" name="Username" placeholder="enter username">
+             
+         </div>
+         <br>
+         <div>
+             <label for="">PASSWORD</label>
+                <input type="password" name="password" placeholder="enter-password" pattern=".{4,8}" required title="Enter a password consisting of 4-8 digits">
+             
+         </div>
+         <br>
+         <div>
+             <label>FILE-NAME</label>
+             <input type="file" accept=".JPG, .JPEG, .PNG, .GIF, .SVG" multiple>
+             
+         </div>
+         <br>
+         <div>
+             <input type="submit" name="Submit">
+         </div>
+     </form>    
+</body>
+</html>

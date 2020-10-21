@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  
+}
+.container {
+  background-color: rgb(4, 172, 172);
+  display: flex;
+  width: 80%;
+  height: 3em;
+  background-color: 
+  margin: 0 auto;
+}
+.right {
+  display: flex;
+  justify-content: flex-start;
+}
+.left {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: end;
+}

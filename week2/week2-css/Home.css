@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.hamburger {
+  display: none;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  line-height: 1.7;
+}
+#left-side {
+  width: 20%;
+  background-color: #1fb157;
+  color: #fff;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  line-height: 1.7;
+  word-spacing: 2;
+  padding: 2.9rem 2rem;
+}
+h2 {
+  text-transform: capitalize;
+  font: bold 2rem "Roboto Condensed";
+}
+.image {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  padding: 5%;
+}
+.first {
+  color: #fff;
+}
+.icon span i {
+  padding-left: 0.8em;
+  margin: 1em 0;
+}
+.link a {
+  display: block;
+  color: #fff;
+  padding: 0.8em;
+  text-decoration: none;
+  font-weight: 600;
+}
+div button {
+  background-color: #427037;
+  color: #fff;
+  border: none;
+  padding: 0.7em 1em;
+  border-radius: 0.3em;
+}
+#main-side {
+  width: 80%;
+  background-color: #f4f4f4;
+}
+#header {
+  padding: 1.2em;
+  text-align: center;
+  line-height: 1.7;
+  word-spacing: 2;
+  background-color: #edebe9;
+}
+.email {
+  width: 19em;
+  padding: 0.8em;
+  border: 0.01em solid rgb(214, 209, 209);
+  border-radius: 0.4em;
+}
+#header button {
+  background-color: #1fb157;
+}
+#main-content {
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 5em;
+}
+.blog {
+  display: flex;
+  flex-flow: column wrap;
+  margin-left: 10em;
+}
+.blog img {
+  width: 10em;
+  height: 10em;
+}
+div .content {
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: -10em;
+  margin-left: 12em;
+  line-height: 1.7;
+  margin-bottom: 5em;
+}
+.blog small li {
+  display: inline;
+  list-style-type: circle;
+  padding-right: 0.6em;
+  padding-left: 0px;
+  word-spacing: 2;
+  letter-spacing: 1.5;
+}
+.content .capitalize {
+  text-transform: capitalize;
+  font: bold 1.5em "Roboto Condensed";
+  color: black;
+}
+.green {
+  color: rgb(5, 175, 104);
+}
+.content a {
+  text-decoration: none;
+}
+
+@media (max-width: 480px), (max-width: 720px) {
+  .container {
+    display: block;
+  }
+  .hamburger {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .hamburger h2 {
+    color: #fff;
+  }
+  #left-side {
+    display: block;
+    width: 100%;
+  }
+  #left-side #section {
+    display: none;
+  }
+  #main-side {
+    display: block;
+    width: 100%;
+  }
+  #header {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 2.5em 0em;
+  }
+  .email-sub {
+    display: block;
+    width: 100%;
+  }
+  .email-sub .email {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  .email-sub .submit {
+    width: 100%;
+  }
+  #main-content .blog {
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin-top: 6.5em;
+    margin-bottom: 1em;
+    margin-left: -10.5em;
+  }
+  #main-content .blog .content {
+    width: 100%;
+    padding: 0px 1em;
+    padding-right: 2em;
+  }
+  #main-content .blog img {
+    display: none;
+  }
+}
