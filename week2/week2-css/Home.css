@@ -135,7 +135,7 @@ div .content {
     display: block;
     width: 100%;
   }
-  #left-side #section {
+  .section {
     display: none;
   }
   #main-side {
