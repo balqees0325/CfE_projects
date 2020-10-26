@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  border-bottom: 1px solid grey;
+  background-color: #fff;
+}
+
+.section1 {
+  background-image: url("./images/bg-cfe5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.align-self-end {
+  font-size: 1.5em;
+}
+.button {
+  background-color: #219988;
+  font-weight: 600;
+  color: #fff;
+  margin: 2em;
+  padding: 1em 2.5em;
+  border: none;
+  border-radius: 8px;
+}
+.button:hover {
+  text-decoration: underline;
+}
+.section2 {
+  background-color: #e4f9f5;
+  height: 850px;
+}
+.section2 h2 {
+  align-self: center;
+}
+.section2 .card {
+  box-shadow: 0 4px 7px 0px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 15px;
+}
+.section3 {
+  background-image: url("./images/bg-cfe5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row a {
+  justify-content: space-between;
+  align-items: center;
+}
+.row a {
+  text-decoration: none;
+}
+.num1,
+.num2,
+.num3,
+.num4 {
+  font-weight: bold;
+  font-size: 3em;
+}
+.num1 {
+  color: #219988;
+}
+.num2 {
+  color: #4e6532;
+}
+.num3 {
+  color: #ebc97a;
+}
+.num4 {
+  color: #fe7e8a;
+}
+.section4 {
+  background-color: #e4f9f5;
+}
+.one {
+  justify-self: end;
+  align-self: center;
+  padding: 2em 0 2em 8.5em;
+  width: 60%;
+}
+.two {
+  justify-self: center;
+  align-self: center;
+}
+.three {
+  justify-self: start;
+  align-self: center;
+}
+.section4 h4 {
+  align-self: center;
+}
+.section5 {
+  background-color: #0d4d40;
+  padding: 3.5em 0 5em 9.5em;
+  color: #fff;
+}
+.section5 a {
+  color: #fff;
+  padding-bottom: 5em;
+}
+
+.text-center {
+  background-color: #e4f9f5;
+}
+.bio {
+  background-color: #4e6532;
+  color: #fff;
+}
+.chem {
+  background-color: rgb(56, 2, 2);
+  color: #fff;
+}
+.chem1 {
+  background-color: rgb(5, 123, 128);
+  color: #fff;
+}
+.eco1 {
+  background-color: #720557;
+  color: #fff;
+}
+.eco {
+  background-color: rgb(13, 3, 78);
+  color: #fff;
+}
+.phy {
+  background-color: rgb(7, 199, 65);
+  color: #fff;
+}
+.socio {
+  background-color: rgb(145, 12, 12);
+  color: #fff;
+}
+.socio1 {
+  background-color: rgba(128, 0, 128, 0.568);
+  color: #fff;
+}
+.geo {
+  background-color: rgba(151, 207, 18, 0.568);
+  color: #fff;
+}
+.row a,
+p {
+  color: #000;
+}
+ {
+}
