@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!--<div>
+<div>
   <header class="navbar navbar-expand-lg fixed-top">
     <div class=" container-fluid mb-2 p-2">
     <div class=>
@@ -22,28 +22,9 @@
   </div>
   </div>
   </header>
-  <div class="container-fluid">
-   <nav class="row">
-      <div class="navbar">
-        <ul class="navbar-nav m-auto">
-          <li class="nav-item">
-            <a href="lectureNotes.html" class="nav-link">Lecture Notes</a>
-          </li>
-          <li class="nav-item">
-            <a href="pastquestions.html" class="nav-link">Past questions</a>
-          </li>
-          <li class="nav-item">
-            <a href="projects.html" class="nav-link">projects</a>
-          </li>
-        </ul>
-      </div>
-   
-    <br><br>
-    <div class="row ">
-      <div class="col bg-light"><button><i class="fas fa-filter"></i>Filter By Course</button></div> 
-  </div>
-</nav>
-</div>-->
+  
+
+</div>
 <div class="container-fluid mt-5  p-5">
 <nav>
   <div class="nav nav-tabs nav-pills nav-fill" id="nav-tab" role="tablist">
@@ -51,85 +32,136 @@
     <a class="nav-item nav-link mr-3" id="nav-questions-tab" data-toggle="tab" href="#questions" role="tab" aria-controls="nav-questions" aria-selected="false">Past Questions</a>
     <a class="nav-item nav-link" id="nav-projects-tab" data-toggle="tab" href="#projects" role="tab" aria-controls="nav-projects" aria-selected="false">Project Materials</a>
   </div>
-   
+  <!-- <div class="bg-white">
      <button class="border border-none shadow px-4 py-2 m-3 bg-white rounded"><i class="fas fa-filter"></i>Filter By Course</button> 
-  
+     <button class="float-right text-danger"><i class="far fa-arrow-alt-circle-up"></i></button>
+    </div>-->
 </nav>
 <div class="tab-content" id="nav-tabContent">
   <!--Lectures-->
-  <div class="tab-pane fade show active" id="lectures" role="tabpanel" aria-labelledby="nav-lectures-tab">
-    <div class="container-fluid">
+  <div class="tab-pane fade show" id="lectures" role="tabpanel" aria-labelledby="nav-lectures-tab">
+    <div class="bg-white">
+      <button class="border border-none shadow px-4 py-2 m-3 bg-white rounded"><i class="fas fa-filter"></i>Filter By Course</button> 
+    </div>  
+    <div class="container-fluid text-center">
       <div class="row"> 
-        <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
           <div class="card shadow mb-4">
           <div class="card-header bio">Biology</div>
           <div class="card-body">
-          <a href="#" class="card-title">BOT 203</a><br><br>
+          <a href="#" class="card-title">BOT 203</a><br>
           <p class="card-text">university of abuja<br>200level.</p>
         </div>
       </div>
          </div>
-          <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="col-sm-12 col-md-6 col-lg-3 p-3">
             <div class="card shadow mb-4">
           <div class="card-header bio">Biology</div>
           <div class="card-body">
-          <a href="#" class="card-title">BOT 203</a><br><br>
+          <a href="#" class="card-title">BOT 203</a><br>
           <p class="card-text">university of abuja<br>200level.</p>
         </div>
         </div>
          </div>
-        <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
           <div class="card mb-4 shadow">
          <div class="card-header eco">Economics</div>
          <div class="card-body">
-           <a href="#" class="card-title">ECN104: mathematics for economics</a><br><br>
+           <a href="#" class="card-title">ECN104: mathematics for economics</a><br>
            <p class="card-text">university of abuja<br>100level.</p>
          </div>
         </div>
       </div>
-        <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
           <div class="card shadow mb-4">
          <div class="card-header bio">Biology</div>
          <div class="card-body">
            <a href="#" class="card-title">ZOOok
-             401: parasitology</a><br><br>
+             401: parasitology</a><br>
            <p class="card-text">university of abuja<br>400level.</p>
          </div>
         </div>
       </div>
-        <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
           <div class="card shadow mb-4">
           <div class="card-header socio">Sociology</div>
         <div class="card-body">
-          <a href="#" class="card-title">SOC204: rural sociology</a><br><br>
+          <a href="#" class="card-title">SOC204: rural sociology</a><br>
           <p class="card-text">university of abuja<br>200level.</p>
         </div>
        </div>
       </div>
       
-        <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
           <div class="card shadow mb-4">
           <div class="card-header eco1">Physics</div>
           <div class="card-body">
-        <a href="#" class="card-title">PHY201: analytical mechanics</a><br><br>
+        <a href="#" class="card-title">PHY201: analytical mechanics</a><br>
         <p class="card-text">university of abuja<br>200level.</p>
       </div>
        </div>
       </div>
-      <div class="col-sm-12 col-md-6 col-lg-3">
+      <div class="col-sm-12 col-md-6 col-lg-3 p-3">
         <div class="card shadow mb-4">
        <div class="card-header phy">Physics</div>
        <div class="card-body text-primary">
-         <a href="#" class="card-title">PHY101: mechanics and properties of matter</a><br><br>
+         <a href="#" class="card-title">PHY101: mechanics and properties of matter</a><br>
          <p class="card-text">university of abuja<br>100level.</p>
        </div>
       </div>
       </div>
-      <div class="col-sm-12 col-md-6 col-lg-3">
+      <div class="col-sm-12 col-md-6 col-lg-3 p-3">
         <div class="card shadow mb-4">
+       <div class="card-header chem">Chemistry</div>
+       <div class="card-body text-primary">
+         <a href="#" class="card-title">CHM121: Foundation chemistry I</a><br><br>
+         <p class="card-text">university of abuja<br>100level.</p>
+       </div>
+      </div>
+    </div>
+      <div class="col-sm-12 col-md-6 col-lg-3 p-3">
+        <div class="card shadow mb-4">
+        <div class="card-header socio">Sociology</div>
+      <div class="card-body text-primary">
+        <a href="#" class="card-title">SOC203: social change</a><br><br>
+        <p class="card-text">university of abuja<br>200level.</p>
+      </div>
+     </div>
+    </div>
+  
+       <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="card shadow">
+         <div class="card-header socio">Sociology</div>
+     <div class="card-body text-primary">
+       <a href="#" class="card-title">SOC105: psychology</a><br><br>
+       <p class="card-text">university of abuja<br>100level.</p>
+     </div>
+      </div>
+    </div>
+     <div class="col-sm-12 col-md-6 col-lg-3">
+      <div class="card shadow">
+      <div class="card-header geo">Geography</div>
+      <div class="card-body">
+        <a href="#" class="card-title">GEO107: geography of the FCT</a><br><br>
+        <p class="card-text">university of abuja<br>100level.</p>
+      </div>
+    </div>
+     </div>
+     <div class="col-sm-12 col-md-6 col-lg-3">
+      <div class="card shadow">
+      <div class="card-header eco1">Economics</div>
+      <div class="card-body text-primary">
+        <a href="#" class="card-title">ECN101: principles of economics</a><br><br>
+        <p class="card-text">university of abuja<br>100level.</p>
+      </div>
+     </div>
+    </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="card shadow">
        <div class="card-header socio1">Chemistry</div>
        <div class="card-body text-primary">
-         <a href="#" class="card-title">CHM471</a><br><br>
+         <a href="#" class="card-title">CHM471</a><br>
          <p class="card-text">university of abuja<br>400level.</p>
        </div>
       </div>
@@ -138,89 +170,441 @@
 </div>
 </div>
 </div>
-</div>
+
 
 <!--QUESTIONS should go here -->
-<div class="tab-pane fade show active" id="questions" role="tabpanel" aria-labelledby="nav-questions-tab">
-  <div class="container-fluid">
+<div class="tab-pane fade" id="questions" role="tabpanel" aria-labelledby="nav-questions-tab">
+  <div class="bg-white">
+    <button class="border border-none shadow px-4 py-2 m-3 bg-white rounded"><i class="fas fa-filter"></i>Filter By Course</button> 
+   </div>
+  <div class="container-fluid text-center">
     <div class="row"> 
-      <div class="col-sm-12 col-md-6 col-lg-3">
+      <div class="col-sm-12 col-md-6 col-lg-3 p-3">
         <div class="card shadow mb-4">
         <div class="card-header chem1">Chemistry</div>
       <div class="card-body text-primary">
-        <a href="#"class="card-title">CHM271: organic chemistry</a><br><br>
+        <a href="#"class="card-title">CHM271: organic chemistry</a><br>
         <p class="card-text">university of abuja<br>200level.</p>
       </div>
     </div>
     </div>
-    
-        <div class="col-sm-12 col-md-6 col-lg-3">
+    <div class="col-sm-12 col-md-6 col-lg-3 p-3">
+      <div class="card shadow mb-4">
+     <div class="card-header chem">Chemistry</div>
+     <div class="card-body text-primary">
+       <a href="#" class="card-title">CHM121: Foundation chemistry I</a><br><br>
+       <p class="card-text">university of abuja<br>100level.</p>
+     </div>
+    </div>
+  </div>
+    <div class="col-sm-12 col-md-6 col-lg-3 p-3">
+      <div class="card shadow mb-4">
+      <div class="card-header socio">Sociology</div>
+    <div class="card-body text-primary">
+      <a href="#" class="card-title">SOC203: social change</a><br><br>
+      <p class="card-text">university of abuja<br>200level.</p>
+    </div>
+   </div>
+  </div>
+      <div class="col-sm-12 col-md-6 col-lg-3 p-3">
+        <div class="card shadow mb-4">
+        <div class="card-header socio1">Sociology</div>
+    <div class="card-body text-primary">
+      <a href="#" class="card-title">SOC105: psychology</a><br><br>
+      <p class="card-text">university of abuja<br>100level.</p>
+    </div>
+     </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-3 p-3">
+      <div class="card shadow mb-4">
+     <div class="card-header geo1">Geography</div>
+     <div class="card-body">
+       <a href="#" class="card-title">GEO107: geography of the FCT</a><br><br>
+       <p class="card-text">university of abuja<br>100level.</p>
+     </div>
+    </div>
+  </div>
+    <div class="col-sm-12 col-md-6 col-lg-3 p-3">
+      <div class="card shadow mb-4">
+     <div class="card-header eco">Economics</div>
+     <div class="card-body text-primary">
+       <a href="#" class="card-title">ECN101: principles of economics</a><br><br>
+       <p class="card-text">university of abuja<br>100level.</p>
+     </div>
+    </div>
+  </div>
+    <div class="col-sm-12 col-md-6 col-lg-3 p-3">
+      <div class="card shadow mb-4">
+      <div class="card-header eco1">Economics</div>
+    <div class="card-body text-primary">
+      <a href="#" class="card-title">ECN103: introduction to mathematical economics</a><br><br>
+      <p class="card-text">university of abuja<br>100level.</p>
+    </div>
+   </div>
+  </div>
+     <div class="col-sm-12 col-md-6 col-lg-3 p-3">
+      <div class="card shadow mb-4">
+       <div class="card-header socio">Sociology</div>
+   <div class="card-body text-primary">
+     <a href="#" class="card-title">SOC105: psychology</a><br><br>
+     <p class="card-text">university of abuja<br>100level.</p>
+   </div>
+    </div>
+  </div>
+   <div class="col-sm-12 col-md-6 col-lg-3 p-3">
+    <div class="card shadow mb-4">
+    <div class="card-header geo">Geography</div>
+    <div class="card-body">
+      <a href="#" class="card-title">GEO107: geography of the FCT</a><br><br>
+      <p class="card-text">university of abuja<br>100level.</p>
+    </div>
+  </div>
+   </div>
+   <div class="col-sm-12 col-md-6 col-lg-3 p-3">
+    <div class="card shadow mb-4">
+    <div class="card-header eco1">Economics</div>
+    <div class="card-body text-primary">
+      <a href="#" class="card-title">ECN101: principles of economics</a><br><br>
+      <p class="card-text">university of abuja<br>100level.</p>
+    </div>
+   </div>
+  </div>
+   <div class="col-sm-12 col-md-6 col-lg-3 p-3">
+    <div class="card shadow mb-4">
+     <div class="card-header eco1">Economics</div>
+   <div class="card-body text-primary">
+     <a href="#" class="card-title">ECN103: introduction to mathematical economics</a><br>
+     <p class="card-text">university of abuja<br>100level.</p>
+   </div>
+  </div>
+  </div>
+     <div class="col-sm-12 col-md-6 col-lg-3 p-3">
+      <div class="card shadow mb-4">
+       <div class="card-header socio">Sociology</div>
+   <div class="card-body text-primary">
+     <a href="#" class="card-title">SOC105: psychology</a><br><br>
+     <p class="card-text">university of abuja<br>100level.</p>
+   </div>
+  </div>
+    </div>
+   <div class="col-sm-12 col-md-6 col-lg-3 p-3">
+    <div class="card shadow mb-4">
+    <div class="card-header geo">Geography</div>
+    <div class="card-body">
+      <a href="#" class="card-title">GEO107: geography of the FCT</a><br><br>
+      <p class="card-text">university of abuja<br>100level.</p>
+    </div>
+  </div>
+   </div>
+   <div class="col-sm-12 col-md-6 col-lg-3 p-3">
+    <div class="card shadow mb-4">
+    <div class="card-header eco1">Economics</div>
+    <div class="card-body text-primary">
+      <a href="#" class="card-title">ECN101: principles of economics</a><br><br>
+      <p class="card-text">university of abuja<br>100level.</p>
+    </div>
+  </div>
+   </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
           <div class="card shadow mb-4">
           <div class="card-header chem">Chemistry</div>
           <div class="card-body text-primary">
-        <a href="#" class="card-title">CHM251: thermodynamics and electrochemistry</a><br><br>
+        <a href="#" class="card-title">CHM251: thermodynamics and electrochemistry</a><br>
         <p class="card-text">university of abuja<br>200level.</p>
       </div>
       </div>
     </div>
-      <div class="col-sm-12 col-md-6 col-lg-3">
+      <div class="col-sm-12 col-md-6 col-lg-3 p-3">
         <div class="card shadow mb-4">
        <div class="card-header phy">Physics</div>
        <div class="card-body text-primary">
-         <a href="#" class="card-title">PHY101: mechanics and properties of matter</a><br><br>
+         <a href="#" class="card-title">PHY101: mechanics and properties of matter</a><br>
          <p class="card-text">university of abuja<br>100level.</p>
        </div>
       </div>
     </div>
-      <div class="col-sm-12 col-md-6 col-lg-3">
+      <div class="col-sm-12 col-md-6 col-lg-3 p-3">
         <div class="card shadow mb-4">
        <div class="card-header chem1">Chemistry</div>
        <div class="card-body text-primary">
-         <a href="#" class="card-title">CHM471</a><br><br>
+         <a href="#" class="card-title">CHM471</a><br>
          <p class="card-text">university of abuja<br>400level.</p>
        </div>
       </div>
       </div>
-      <div class="col-sm-12 col-md-6 col-lg-3">
+      <div class="col-sm-12 col-md-6 col-lg-3 p-3">
         <div class="card shadow mb-4">
         <div class="card-header socio1">Chemistry</div>
       <div class="card-body text-primary">
-        <a hef="#" class="card-title">CHM271: organic chemistry I</a><br><br>
+        <a hef="#" class="card-title">CHM271: organic chemistry I</a><br>
         <p class="card-text">university of abuja<br>200level.</p>
       </div>
      </div>
     </div>
     
-        <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="col-sm-12 col-md-6 col-lg-3 p-3">
           <div class="card shadow mb-4">
           <div class="card-header chem">Chemistry</div>
          <div class="card-body text-primary">
-         <a href="#" class="card-title">CHM251: thermodynamics and electrochemistry</a><br><br>
+         <a href="#" class="card-title">CHM251: thermodynamics and electrochemistry</a><br>
          <p class="card-text">university of abuja<br>200level.</p>
       </div>
       </div>
      </div>
-      <div class="col-sm-12 col-md-6 col-lg-3">
+      <div class="col-sm-12 col-md-6 col-lg-3 p-3">
         <div class="card shadow mb-4">
        <div class="card-header chem1">Chemistry</div>
        <div class="card-body text-primary">
-         <a href="#" class="card-title">CHM171: Foundation chemistry III</a><br><br>
+         <a href="#" class="card-title">CHM171: Foundation chemistry III</a><br>
          <p class="card-text">university of abuja<br>100level.</p>
        </div>
       </div>
     </div>
-       
-       </div>
+    
+   <div class="col-sm-12 col-md-6 col-lg-3">
+    <div class="card shadow">
+     <div class="card-header eco1">Economics</div>
+     <div class="card-body text-primary">
+     <a href="#" class="card-title">ECN103: introduction to mathematical economics</a><br>
+     <p class="card-text">university of abuja<br>100level.</p>
+   </div>
+  </div>
+  </div>
+     <div class="col-sm-12 col-md-6 col-lg-3">
+      <div class="card shadow">
+       <div class="card-header socio">Sociology</div>
+       <div class="card-body text-primary">
+       <a href="#" class="card-title">SOC105: psychology</a><br><br>
+       <p class="card-text">university of abuja<br>100level.</p>
+     </div>
+   </div>
+    </div>
+   <div class="col-sm-12 col-md-6 col-lg-3">
+    <div class="card shadow">
+    <div class="card-header geo">Geography</div>
+    <div class="card-body">
+      <a href="#" class="card-title">GEO107: geography of the FCT</a><br><br>
+      <p class="card-text">university of abuja<br>100level.</p>
+    </div>
+  </div>
+   </div>
+   <div class="col-sm-12 col-md-6 col-lg-3">
+    <div class="card shadow">
+    <div class="card-header eco1">Economics</div>
+    <div class="card-body text-primary">
+      <a href="#" class="card-title">ECN101: principles of economics</a><br><br>
+      <p class="card-text">university of abuja<br>100level.</p>
+    </div>
+    </div>
+    </div>   
+</div>
 </div>
 </div>
 
 <!--Projects-->
 <div class="tab-pane fade show active" id="projects" role="tabpanel" aria-labelledby="nav-projects-tab">
-  <div class="container-fluid">
+  <div class="bg-white">
+    <button class="border border-none shadow px-4 py-2 m-3 bg-white rounded"><i class="fas fa-filter"></i>Filter By Course</button> 
+    <button class="arrow float-right text-danger bg-white m-3 border border-none"><i class="far fa-arrow-alt-circle-up"></i></button>
+   </div>
+  <div class="container-fluid text-center">
     <div class="row"> 
-      
-       
-       </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 p-3">
+        <div class="card shadow mb-4">
+         <div class="card-header socio">Sociology</div>
+     <div class="card-body text-primary">
+       <a href="#" class="card-title">SOC105: psychology</a><br><br>
+       <p class="card-text">university of abuja<br>100level.</p>
+     </div>
+      </div>
+    </div>
+     <div class="col-sm-12 col-md-6 col-lg-4 p-3">
+      <div class="card shadow mb-4">
+      <div class="card-header geo">Geography</div>
+      <div class="card-body">
+        <a href="#" class="card-title">GEO107: geography of the FCT</a><br><br>
+        <p class="card-text">university of abuja<br>100level.</p>
+      </div>
+    </div>
+     </div>
+     <div class="col-sm-12 col-md-6 col-lg-4 p-3">
+      <div class="card shadow mb-4">
+      <div class="card-header eco1">Economics</div>
+      <div class="card-body text-primary">
+        <a href="#" class="card-title">ECN101: principles of economics</a><br><br>
+        <p class="card-text">university of abuja<br>100level.</p>
+      </div>
+    </div>
+     </div>
+     <div class="col-sm-12 col-md-6 col-lg-4 p-3">
+      <div class="card shadow mb-4">
+       <div class="card-header eco">Economics</div>
+     <div class="card-body text-primary">
+       <a href="#" class="card-title">ECN103: introduction to mathematical economics</a><br><br>
+       <p class="card-text">university of abuja<br>100level.</p>
+     </div>
+    </div>
+    </div>
+       <div class="col-sm-12 col-md-6 col-lg-4 p-3">
+        <div class="card shadow mb-4">
+         <div class="card-header socio">Sociology</div>
+     <div class="card-body text-primary">
+       <a href="#" class="card-title">SOC105: psychology</a><br><br>
+       <p class="card-text">university of abuja<br>100level.</p>
+     </div>
+    </div>
+      </div>
+     <div class="col-sm-12 col-md-6 col-lg-4 p-3">
+      <div class="card shadow mb-4">
+      <div class="card-header geo">Geography</div>
+      <div class="card-body">
+        <a href="#" class="card-title">GEO107: geography of the FCT</a><br>
+        <p class="card-text">university of abuja<br>100level.</p>
+      </div>
+    </div>
+     </div>
+     <div class="col-sm-12 col-md-6 col-lg-4 p-3">
+      <div class="card shadow mb-4">
+      <div class="card-header eco">Economics</div>
+      <div class="card-body text-primary">
+        <a href="#" class="card-title">ECN101: principles of economics</a><br>
+        <p class="card-text">university of abuja<br>100level.</p>
+      </div>
+     </div>
+    </div>
+     <div class="col-sm-12 col-md-6 col-lg-4 p-3">
+      <div class="card shadow mb-4">
+       <div class="card-header eco">Economics</div>
+     <div class="card-body text-primary">
+       <a href="#" class="card-title">ECN103: introduction to mathematical economics</a><br>
+       <p class="card-text">university of abuja<br>100level.</p>
+     </div>
+    </div>
+    </div>
+       <div class="col-sm-12 col-md-6 col-lg-4 p-3">
+        <div class="card shadow mb-4">
+         <div class="card-header socio">Sociology</div>
+     <div class="card-body text-primary">
+       <a href="#" class="card-title">SOC105: psychology</a><br>
+       <p class="card-text">university of abuja<br>100level.</p>
+     </div>
+    </div>
+      </div>
+     <div class="col-sm-12 col-md-6 col-lg-4 p-3">
+      <div class="card shadow mb-4">
+      <div class="card-header geo">Geography</div>
+      <div class="card-body">
+        <a href="#" class="card-title">GEO107: geography of the FCT</a><br>
+        <p class="card-text">university of abuja<br>100level.</p>
+      </div>
+    </div>
+     </div>
+     <div class="col-sm-12 col-md-6 col-lg-4 p-3">
+      <div class="card shadow mb-4">
+      <div class="card-header eco">Economics</div>
+      <div class="card-body text-primary">
+        <a href="#" class="card-title">ECN101: principles of economics</a><br>
+        <p class="card-text">university of abuja<br>100level.</p>
+      </div>
+      </div>
+     </div>
+     <div class="col-sm-12 col-md-6 col-lg-4 p-3">
+      <div class="card shadow mb-4">
+       <div class="card-header eco">Economics</div>
+     <div class="card-body text-primary">
+       <a href="#" class="card-title">ECN103: introduction to mathematical economics</a><br>
+       <p class="card-text">university of abuja<br>100level.</p>
+     </div>
+    </div>
+    </div>
+    
+       <div class="col-sm-12 col-md-6 col-lg-4 p-3">
+        <div class="card shadow mb-4">
+         <div class="card-header socio">Sociology</div>
+     <div class="card-body text-primary">
+       <a href="#" class="card-title">SOC105: psychology</a><br>
+       <p class="card-text">university of abuja<br>100level.</p>
+     </div>
+    </div>
+    </div> 
+
+    <div class="col-sm-12 col-md-6 col-lg-4 p-3">
+      <div class="card shadow mb-4">
+      <div class="card-header bio">Biology</div>
+      <div class="card-body">
+      <a href="#" class="card-title">BOT 203</a><br><br>
+      <p class="card-text">university of abuja<br>200level.</p>
+    </div>
+  </div>
+     </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 p-3">
+        <div class="card shadow mb-4">
+      <div class="card-header bio">Biology</div>
+      <div class="card-body">
+      <a href="#" class="card-title">BOT 203</a><br><br>
+      <p class="card-text">university of abuja<br>200level.</p>
+    </div>
+    </div>
+     </div>
+    <div class="col-sm-12 col-md-6 col-lg-4 p-3">
+      <div class="card mb-4 shadow">
+     <div class="card-header eco">Economics</div>
+     <div class="card-body">
+       <a href="#" class="card-title">ECN104: mathematics for economics</a><br><br>
+       <p class="card-text">university of abuja<br>100level.</p>
+     </div>
+    </div>
+  </div>
+    <div class="col-sm-12 col-md-6 col-lg-4 p-3">
+      <div class="card shadow mb-4">
+     <div class="card-header bio">Biology</div>
+     <div class="card-body">
+       <a href="#" class="card-title">ZOOok
+         401: parasitology</a><br><br>
+       <p class="card-text">university of abuja<br>400level.</p>
+     </div>
+    </div>
+  </div>
+    <div class="col-sm-12 col-md-6 col-lg-4 p-3">
+      <div class="card shadow mb-4">
+      <div class="card-header socio">Sociology</div>
+    <div class="card-body">
+      <a href="#" class="card-title">SOC204: rural sociology</a><br><br>
+      <p class="card-text">university of abuja<br>200level.</p>
+    </div>
+   </div>
+  </div>
+  
+    
+  <div class="col-sm-12 col-md-6 col-lg-4 p-3">
+    <div class="card shadow mb-4">
+   <div class="card-header phy">Physics</div>
+   <div class="card-body text-primary">
+     <a href="#" class="card-title">PHY101: mechanics and properties of matter</a><br><br>
+     <p class="card-text">university of abuja<br>100level.</p>
+   </div>
+  </div>
+</div>
+  <div class="col-sm-12 col-md-6 col-lg-4 p-3">
+    <div class="card shadow mb-4">
+   <div class="card-header chem1">Chemistry</div>
+   <div class="card-body text-primary">
+     <a href="#" class="card-title">CHM471</a><br><br>
+     <p class="card-text">university of abuja<br>400level.</p>
+   </div>
+  </div>
+  </div>
+  <div class="col-sm-12 col-md-6 col-lg-4 p-3">
+    <div class="card shadow mb-4">
+    <div class="card-header socio1">Chemistry</div>
+  <div class="card-body text-primary">
+    <a hef="#" class="card-title">CHM271: organic chemistry I</a><br><br>
+    <p class="card-text">university of abuja<br>200level.</p>
+  </div>
+ </div>
+</div>
+
+</div>
 </div>
 </div>
 </div>

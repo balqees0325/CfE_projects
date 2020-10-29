@@ -21,12 +21,14 @@
   </div>
   </div>
   </nav>
-  <div class="container-fluid p-5 section1">
+  <div class="container-fluid section1">
     <div class="row mt-5 pt-5">
-      <div class="col-lg-6 d-none d-lg-flex order-2">
-         <img src="./images/hero_image.png" alt="stack of books" class="img-fluid ml-auto mr-4">
+      <div class=" col-md-none d-flex col-lg-6 order-2">
+         <img id="img-top" src="./images/hero_image.png" width="80%"  alt="stack of books" class="img-fluid ml-auto mr-4">
       </div>
+      
       <div class="col-sm-12 col-md-6 order-1">
+        <div class="px-5">
          <h1 class="display-5 pl-3">We connect University students with their most important needs.</h1>
          <ul class="list-unstyled">
          <div class="d-flex py-4">
@@ -50,16 +52,17 @@
            Start Here
         </button>
       </div>
+      </div>
     </div>
   </div>
 
   <div class="container-fluid section2">
-    <div class="row p-5">
-     <h2 class="col-sm-12 col-md-6 offset-lg-3 my-3">Be more productive while in school...</h2>
+    <div class="row">
+     <h2 class="col text-center p-3">Be more productive while in school...</h2>
     </div>
-    <div class="row m-5">
-      <div class="col-lg-6 ">
-        <div class="card mx-5 p-2">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-6 ">
+        <div class="card mx-5 p-2 my-5">
           <div class="card-body">
             <img src="./images/books.png" class="card-img-top mb-3" style="width:80px" alt="book image">
             <h5 class="card-title">Free access to quality learning materials</h5>
@@ -67,10 +70,10 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-6">
-        <div class="card mx-5">
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <div class="card mx-4 p-2 my-5">
           <div class="card-body">
-          <img src="./images/calendar.png" class="card-img-top pl-4" style="max-width:80px" alt="calender image">
+          <img src="./images/calendar.png" class="card-img-top mb-3 " style="width:80px" alt="calender image">
           <div class="card-body">
             <h5 class="card-title">Stay organised while on campus</h5>
             <p class="card-text">Save your lecture and personal study timetables online for convenient access. Safely store your academic results for private access and automatically generate your GPA for the semester.</p>
@@ -80,19 +83,19 @@
       </div>
     </div>
     
-      <div class="col-lg-6 ">
-        <div class="card mx-5 p-2">
+      <div class="col-sm-12 col-md-6 col-lg-6 ">
+        <div class="card mx-5 p-2 my-5">
           <div class="card-body">
-            <img src="./images/network.png" class="card-img-top mb-3" style="width:80px" alt="book image">
+            <img src="./images/network.png" class="card-img-top mb-3 " style="width:80px" alt="book image">
             <h5 class="card-title">Create your network while still in school</h5>
             <p class="card-text">Connect, interact, and collaborate with people studying the same course as you in other Universities in Nigeria..</p>
           </div>
         </div>
       </div>
-      <div class="col-lg-6">
-        <div class="card mx-5">
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <div class="card mx-4 p-2 my-5">
           <div class="card-body">
-          <img src="./images/money-bag.png" class="card-img-top pl-4" style="width:80px" alt="calender image">
+          <img src="./images/money-bag.png" class="card-img-top mb-3" style="width:80px" alt="calender image">
           <div class="card-body">
             <h5 class="card-title">Make money while you’re at it</h5>
             <p class="card-text">Upload project materials and get 50% of the sum each time it is downloaded. Uploading more projects increases your chance of earning more money. </p> 
@@ -100,15 +103,12 @@
            </div>
           </div>
         </div>
-      
      </div>
     </div>
-  </div>
-  </div>
-
-  <div class="container-fluid section3">
-    <div class="row pl-5">
-       <div class=" col-sm-12 col"><a href="lectureNotes.html" class="num1">214</a>
+  
+  <div class="container-fluid section3 text-center">
+    <div class="row">
+       <div class=" col-sm-12 col-md-6 col-lg-3"><a href="lectureNotes.html" class="num1">214</a>
         <p><a class="text-dark" href="lectureNotes.html"> Lesson Notes</p></a>
       </div>
        <div class="col-sm-12 col-md-6 col-lg-3">
@@ -123,30 +123,36 @@
         </div>
     </div>
   </div>
-  <div class="container-fluid section4">
+  <div class="container-fluid justify-content-center section4">
     <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-3 one">
-         <img src="./images/collection_box.png" alt="box of items">
+      <div class="col-sm-12 col-md-4 col-lg-4">
+        <div id="zero" class="style one">
+         <img src="./images/collection_box.png" width="140"; alt="box of items">
+        </div>
       </div>
-      <div class="col-sm-12 col-md-6 col-lg-3 two">
+      <div class="col-sm-12 col-md-4 col-lg-4">
+        <div id="zero" class="style two">
          <h4 class="display-5">Improve your school life, make money by uploading project materials
           Start</h4>
+        </div>
       </div>
-      <div class="col-sm-12 col-md-6 col-lg-3 three">
-         <button class="button">Start Uploading</button>
+      <div class="col-sm-12 col-md-4 col-lg-4">
+        <div id="zero" class="style three">
+         <button class="button mr-5 py-2 px-3">Start Uploading</button>
+        </div>
       </div>
     </div>
   </div>
    <div class="container-fluid section5">
      <div class="row connect">
-       <div class="col-sm-6 col-lg-3"><div>
+       <div class="col-sm-6 col-md-6 col-lg-4"><div>
          <a href="lectureNotes.html">Lecture Notes</a></div>
         <div>
          <a href="pastquestions.html">Past Questions</a></div>
         <div>
          <a href="projects.html">Project Topics</a></div>
        </div>
-       <div class="col-sm-6 col-lg-3">
+       <div class="col-sm-6 col-lg-4">
          <div>
          <a href="About.html">About Us</a></div>
          <div>
@@ -156,15 +162,18 @@
         </div>
        </div>
        <div>
-       <div class="col-sm-6 col-3"><div class="row"> <div class="col connectwith ">
+       <div class="col-sm-6 col-4">
+         <div class="row">
+          <div class="connectwith">
          <a href="#">Connect with Us</a></div>
-         <div class="col-sm-6 col-md-6 icon text-secondary">
+         <div class="icon text-secondary">
             <a href="#"><i class="fab fa-tumblr p-3"></i></a>
             <a href="#"><i class="fab fa-facebook-f p-3"></a>
             <a href="#"></i><i class="fab fa-linkedin-in p-3"></i></a>
           </div>
-        </div></div>
-       <div class="col">
+        </div>
+      </div>
+       <div class="col-12 text-center">
          <small>greenbrain 2019</small>
      </div>
     </div>

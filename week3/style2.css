@@ -3,12 +3,28 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  background-color: #e4f8f5;
+  background-color: #8ceccc;
 }
-.container {
-  margin-top: 10em;
-  box-shadow: 3px 7px 3px 7px #fff;
+.row {
   background-color: #fff;
-  border-radius: 15px;
+  width: 40%;
+  justify-content: center;
+  height: max-content;
+  border-radius: 4;
+  margin: 6em auto;
+}
+.form-control {
+  background-color: #eee;
+  border: none;
+  width: 100%;
+}
+i {
+  background-color: none;
+  border: none;
+}
+.submit {
+  background-color: #8ceccc;
+  color: #fff;
 }

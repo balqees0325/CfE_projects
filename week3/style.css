@@ -4,14 +4,15 @@
   box-sizing: border-box;
 }
 .navbar {
-  border-bottom: 1px solid grey;
   background-color: #fff;
+  border
 }
-
+.arrow {
+  font-size: 1.5rem;
+  border: none !important;
+}
 .section1 {
-  background-image: url("./images/bg-cfe5.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #fff;
 }
 .align-self-end {
   font-size: 1.5em;
@@ -30,7 +31,6 @@
 }
 .section2 {
   background-color: #e4f9f5;
-  height: 850px;
 }
 .section2 h2 {
   align-self: center;
@@ -38,12 +38,11 @@
 .section2 .card {
   box-shadow: 0 4px 7px 0px rgba(0, 0, 0, 0.1);
   border: none;
+  height: 18em;
   border-radius: 15px;
 }
 .section3 {
-  background-image: url("./images/bg-cfe5.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #fff;
 }
 .row a {
   justify-content: space-between;
@@ -75,22 +74,33 @@
   background-color: #e4f9f5;
 }
 .one {
-  justify-self: end;
+  justify-self: center;
   align-self: center;
-  padding: 2em 0 2em 8.5em;
-  width: 60%;
+  padding: 2em 0 2em 10.5em;
+  
 }
 .two {
   justify-self: center;
   align-self: center;
+  margin-top: 5em;
 }
 .three {
-  justify-self: start;
+  justify-self: center;
   align-self: center;
+  margin-top:3em;
 }
 .section4 h4 {
   align-self: center;
 }
+
+ @media and(max-width:476px) {
+   #img-top {
+     display: none;
+   }
+   #zero {
+     justify-content: center;
+   }
+ }
 .section5 {
   background-color: #0d4d40;
   padding: 3.5em 0 5em 9.5em;
@@ -100,9 +110,14 @@
   color: #fff;
   padding-bottom: 5em;
 }
+.card {
+  height : 100%;
+  padding: 0;
+  margin-bottom: 1rem !important;
+}
 
 .text-center {
-  background-color: #e4f9f5;
+  text-align: center;
 }
 .bio {
   background-color: #4e6532;
