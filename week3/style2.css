@@ -6,25 +6,52 @@
 
 body {
   background-color: #8ceccc;
+  font-family: sans-serif;
+  line-height: 1.6;
+  word-spacing: 2;
 }
-.row {
-  background-color: #fff;
-  width: 40%;
+.container-fluid {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  height: max-content;
-  border-radius: 4;
-  margin: 6em auto;
+  align-items: center;
+}
+form {
+  width: 26rem;
+  background-color: #fff;
+  box-shadow: 0px 1px 2px 0px;
+  border-radius: 4px;
+  margin: 25px auto;
+  padding: 1rem 5rem 1rem 1.5rem;
 }
 .form-control {
   background-color: #eee;
   border: none;
-  width: 100%;
+  width: 80%;
 }
-i {
-  background-color: none;
-  border: none;
-}
+
 .submit {
   background-color: #8ceccc;
   color: #fff;
+}
+.submit:hover {
+  color: green;
+}
+.text-right {
+  background-color: rgb(78, 9, 9);
+  border: none;
+  border-top: 1px solid rgb(201, 197, 197);
+  width: 100%;
+  padding: 2rem 3.3rem;
+  text-align: right;
+  margin: 1rem -5rem -1rem -1.5rem;
+}
+
+@media (max-width: 576px) {
+  .form-group {
+    width: 80%;
+  }
+  .button {
+    width: 80%;
+  }
 }

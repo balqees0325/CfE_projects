@@ -4,50 +4,54 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sign Up</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous"/>
   <link rel="stylesheet" href="style3.css">
 </head>
 <body>
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-6 justify-content-center">
+    <div class="row text-center">
+      <form action="post">
+      <div class="col-sm-12 col-md-12 justify-content-center ">
         <h1>Sign Up</h1>
-        <form action="post">
-          <div class="form-group">
-            <label for="exampleInputFirst">First Name</label>
-            <input type="text" class="form-control" id="exampleInputFirst" aria-describedby="textHelp" placeholder="First Name">
+          <div class="form-group col-sm-12 col-md-12">
+            <label for="exampleInputFirst">First Name<i class="fas fa-star"></i></label>
+            <input type="text" class="form-control col-sm-12 col-md-12" id="exampleInputFirst" aria-describedby="textHelp" placeholder="First Name">
           </div>
-          <div class="form-group">
-            <label for="exampleInputFirst">Last Name</label>
+          <div class="form-group col-sm-12 col-md-12">
+            <label for="exampleInputFirst">Last Name<i class="fas fa-star"></i></label>
             <input type="text" class="form-control" id="exampleInputLast" aria-describedby="textHelp" placeholder="Last Name">
           </div>
           <div class="form-group">
-            <label for="exampleInputFirst">Username</label>
+            <label for="exampleInputFirst">Username<i class="fas fa-star"></i></label>
             <input type="text" class="form-control" id="exampleInputFirst" aria-describedby="textHelp" placeholder="Username">
           </div>
           <div class="form-group">
-            <label for="exampleInputFirst">Email</label>
+            <label for="exampleInputFirst">Email<i class="fas fa-star"></i></label>
             <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="textHelp" placeholder="email">
           </div>
           <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
+            <label for="exampleInputPassword1">Password<i class="fas fa-star"></i></label>
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="password">
           </div>
           <div class="form-group">
-            <label for="exampleInputFirst">School</label>
+            <label for="exampleInputFirst">School<i class="fas fa-star"></i></label>
             <input type="text" class="form-control" id="exampleInputFirst" aria-describedby="textHelp" placeholder="school">
           </div>
           <div class="form-group">
-            <label for="exampleInputFirst">Department</label>
+            <label for="exampleInputFirst">Department<i class="fas fa-star"></i></label>
             <input type="text" class="form-control" id="exampleInputFirst" aria-describedby="textHelp" placeholder="department">
           </div>
+          <div class="button">
           <button type="submit" class="btn btn-block">Sign Up</button>
+          </div>
+          <div class="col-sm 12 text">
+            <p>Already have an account? <a href="login.html">Login Here</a></p>
+          </div>
         </form>
-      </div>
-       <div class="text">
-         <p>Already have an account? <a href="#">Login Here</a></p>
-       </div>
+         </div>
+         
     </div>
-
+    
   </div>
 </body>
 </html>

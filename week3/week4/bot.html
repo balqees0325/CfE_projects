@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bot.css">
+  <title>Bot</title>
+  
+</head>
+<body>
+  <div class=" container main">
+    <h1>Welcome to LalE Mall</h1>
+    <h4>Kindly Take The Security Check</h4>
+    <p>Fill the form to gain entry</p>
+    <form  onsubmit="return false" class="form">
+      <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Please enter your name" required><br>
+      <label for="Age">Age:</label><br>
+        <input type="number" id="age" name="name" placeholder="Please enter your Age" required><br>
+        <label for="select">Face Mask:</label>
+      <select name="select" id="mask">
+        <option value="select">select</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select><br>
+      <button onclick="checkUser();">Submit</button>
+      <p><span id="allowed"></span><span id="denied"></span></p>
+      <input id="count">
+    </form>
+    <button type="text">View all visitors</button>
+  </div>
+
+  <script src="./bot.js"></script>
+</body>
+</html>

@@ -9,7 +9,7 @@
 }
 .arrow {
   font-size: 1.5rem;
-  border: none !important;
+  border: none;
 }
 .section1 {
   background-color: #fff;
@@ -93,7 +93,7 @@
   align-self: center;
 }
 
- @media and(max-width:476px) {
+ @media(max-width:776px) {
    #img-top {
      display: none;
    }
@@ -113,7 +113,7 @@
 .card {
   height : 100%;
   padding: 0;
-  margin-bottom: 1rem !important;
+  margin-bottom: 1rem;
 }
 
 .text-center {
