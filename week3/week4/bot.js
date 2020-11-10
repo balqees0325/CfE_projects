@@ -13,21 +13,20 @@ const checkUser = () => {
 if (age.value >= 12 && faceMask.value ==="yes") {
   allowed++;
   document.querySelector('#allowed').innerHTML = "Allowed visitors:" + allowed
-  total++
-  document.querySelector('#count').innerHTML = "Counter entries:" + total
-  alert('welcome to the mall: ' + allowed);
+  alert(`welcome to the mall:${userName.value}`);
 
 } else if (age.value < 12 && faceMask.value ==="yes"){
   denied++;
   document.querySelector('#denied').innerHTML = "Denied visitors:" + denied
-  alert('sorry you must be 12 years old to be allowed in: ' + denied);
+  alert(`sorry you must be 12 years old to be allowed in:${userName.value}`);
 } else {
   denied++;
   document.querySelector('#denied').innerHTML = "Denied visitors:" + denied
-  total++
-  document.querySelector('#count').innerHTML = "Counter entries:" + total
-  alert('Ooops sorry you are not allowed in: ' + denied);
+  alert(`Ooops sorry you are not allowed in:${userName.value}`);
 }
+userName.value = "";
+age.value = "";
+
 };
 
 
