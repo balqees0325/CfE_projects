@@ -16,18 +16,21 @@ html body {
   margin: auto;
   line-height: 1.6;
 }
-#left-side {
+.left-side {
   width: 20%;
   background-color: #1fb157;
   color: #fff;
   display: flex;
+  justify-content: center;
   flex-flow: row wrap;
   text-align: center;
   line-height: 1.7;
   word-spacing: 2;
   padding: 28px 16px;
+  height: 100vh;
 }
-h2 {
+.left-side > h2 {
+  padding-top: 80px;
   text-transform: capitalize;
   font: bold 2em "Roboto Condensed";
 }
@@ -61,25 +64,23 @@ div button {
 }
 #main-side {
   width: 80%;
-  overflow: auto;
   display: flex;
   flex-flow: column;
-  margin-top: -40em;
-  margin-left: 25em;
-  text-align: left;
   line-height: 1.7;
   word-spacing: 2;
-  padding: 28px 16px;
+  padding-left: 40px;
 }
-#header {
+.header {
   width: 80%;
   display: flex;
   flex-direction: column;
   padding: 1.2em;
-  text-align: left;
   line-height: 1.7;
   word-spacing: 2;
   background-color: #edebe9;
+}
+.header h2 {
+  text-transform: capitalize;
 }
 ul li {
   display: inline-flex;
@@ -87,20 +88,43 @@ ul li {
 .content-image img {
   width: 80%;
 }
-.content-image .world {
-  font-weight: bold;
-  font-size: 2em;
-  color: rgb(238, 23, 23);
-  text-align: center;
-  margin: -15em 5em 20em 0;
-}
-.content-image .para {
+
+.para {
   display: flex;
   flex-wrap: wrap;
   width: 80%;
-  margin: -15em 5em 0em 0em;
 }
-@media (max-width: 480px), (max-width: 720px) {
+@media (max-width: 826px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: auto;
+    line-height: 1.6;
+  }
+  .left-side {
+    width: 30%;
+    background-color: #1fb157;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    text-align: center;
+    line-height: 1.7;
+    word-spacing: 2;
+    padding: 28px 16px;
+    height: 100%;
+  }
+  #main-side {
+    width: 70%;
+    display: flex;
+    flex-flow: column;
+    line-height: 1.7;
+    word-spacing: 2;
+    padding-left: 40px;
+  }
+}
+@media (max-width: 580px) {
   .container {
     display: block;
   }
@@ -109,45 +133,34 @@ ul li {
     justify-content: flex-start;
   }
 
-  #left-side {
+  .left-side {
     display: block;
     width: 100%;
   }
   .section {
     display: none;
   }
-  #main-side {
+  .main-side {
     display: block;
     width: 100%;
     margin-top: 1em;
-    margin-left: 0;
   }
-  #header {
+  .header {
     display: block;
     text-align: left;
     width: 100%;
   }
-  #header h2 {
+  .header h2 {
     font-size: 1.5em;
   }
   .content-image img {
     display: block;
     width: 100%;
-    margin: 0;
-    padding: 0;
   }
-  .content-image .world {
-    display: flex;
-    font-size: 1.5em;
-    text-align: left;
-    margin: -9.5em 0em 8em 0em;
-    font-weight: normal;
-  }
-  .content-image .para {
+
+  .para {
     display: block;
-    text-align: left;
     width: 100%;
-    margin: 10em 0em 0em 0em;
   }
   .nav-toggleShow {
     display: block;

@@ -51,27 +51,28 @@ form {
   border-radius: 2px;
 }
 .btn {
-  border: 1px solid rgb(0, 200, 150);
   border-radius: 4px;
-  padding: 1rem;
   width: 100%;
+  padding: 0.5rem 0.2rem;
+  display: block;
   background-color: #8ceccc;
   color: #fff;
   font-weight: 250;
   font-size: 1rem;
+  border: none;
 }
 .button {
   border: 1px solid rgb(233, 228, 228);
   border-radius: 4px;
   width: 100%;
+  margin-left: 0;
   margin: 1.5rem;
   padding: 0.6rem 0.8rem 0.6rem 0.4rem;
 }
 i {
-  color: rgb(247, 70, 70);
-  font-size: 0.01rem;
+  color: #000;
+  font-size: 0.5rem;
   position: absolute;
-  margin-top: 3px;
   padding: 5px;
 }
 .text {
@@ -82,6 +83,28 @@ i {
   padding: 2rem 3.3rem;
   text-align: center;
   margin: 1rem -5rem -1rem -1.5rem;
+}
+.btn1 {
+  border: 1px solid rgb(233, 228, 228);
+  border-radius: 4px;
+  padding: 0.6rem 0.8rem 0.6rem 0.4rem;
+}
+.but1 {
+  border-radius: 4px;
+  display: block;
+  background-color: #8ceccc;
+  color: #fff;
+  font-weight: 250;
+  font-size: 1rem;
+  border: none;
+}
+.text1 {
+  background-color: rgb(224, 218, 218);
+  border: none;
+  border-top: 1px solid rgb(201, 197, 197);
+  padding: 2rem 3.3rem;
+  margin-top: 20px;
+  text-align: center;
 }
 
 @media (max-width: 776px) {

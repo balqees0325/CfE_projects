@@ -2,10 +2,9 @@ let userName = document.querySelector('#name');
 let age = document.querySelector('#age');
 let faceMask =document.querySelector('#mask');
 
-let total = 0;
 let allowed = 0;
-
 let denied = 0;
+let total = 0;
 
 const checkUser = () => {
  

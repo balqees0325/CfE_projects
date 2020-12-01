@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEEK5-CFE</title>
+  </head>
+  <body>
+    <script>
+      const shoppingList = () => {
+        let myList = [
+          ["Mackbook Pro 2020", 5],
+          ["Hp 320", 3],
+          ["Latest Dell", 1],
+          ["Beverage", 4],
+          ["Cheese", 10],
+          ["cheicken", 7],
+        ];
+        let firstRemove = myList.shift();
+        let lastRemove = myList.pop();
+        let replacedArr = myList.splice(2, 1, ["Orange Juice", 17]);
+        let newObj = {};
+        let loopArr = myList.map((arr) => {
+          newObj[arr[0]] = arr[1];
+        });
+        console.log(newObj);
+        console.log(firstRemove);
+        console.log(lastRemove);
+        console.log(replacedArr);
+        console.log(loopArr);
+      };
+      shoppingList();
+    </script>
+  </body>
+</html>

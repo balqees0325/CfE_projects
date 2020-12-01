@@ -10,11 +10,11 @@ html body {
 .container {
   display: flex;
   flex-wrap: row wrap;
-  max-width: 80%;
+  max-width: 100%;
   margin: auto;
   line-height: 1.6;
 }
-#left-side {
+.left-side {
   width: 20%;
   background-color: #43d179;
   color: #fff;
@@ -24,6 +24,10 @@ html body {
   line-height: 1.7;
   word-spacing: 2;
   padding: 28px 16px;
+  height: 100vh;
+}
+.left-side h2 {
+  padding-top: 40px;
 }
 h2 {
   text-transform: capitalize;
@@ -74,9 +78,43 @@ div button {
   padding-top: 1.2em;
   padding-bottom: 1.2em;
 }
-@media (max-width: 480px), (max-width: 720px) {
+
+@media (max-width: 826px) {
+  .container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    max-width: 100%;
+    margin: auto;
+    line-height: 1.6;
+  }
+  .left-side {
+    width: 30%;
+    background-color: #1fb157;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.7;
+    word-spacing: 2;
+    padding: 16px;
+    height: 100%;
+  }
+  .left-side h2 {
+    padding-top: 40px;
+  }
+  .main-side {
+    width: 70%;
+    display: flex;
+    flex-flow: column;
+    line-height: 1.7;
+    word-spacing: 2;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 580px) {
   .container {
     display: block;
+    overflow: hidden;
   }
   .hamburger {
     display: flex;
@@ -96,8 +134,7 @@ div button {
   #main-side {
     display: block;
     width: 100%;
-    margin-top: 1.5em;
-    margin-left: -1em;
+    margin: 1em;
   }
   .img {
     width: 100%;

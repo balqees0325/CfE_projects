@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 1.5rem;
+  color: #80cfa9;
+}
+/* #80cfa9, */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 60px auto;
+}
+form input {
+  width: 350px;
+  margin-top: 50px;
+}
+form input,
+form button {
+  padding: 0.5rem;
+  border: 1px solid #80cfa9;
+  border-radius: 4px;
+}
+form button {
+  color: #80cfa9;
+  background-color: #f6f6f6;
+}

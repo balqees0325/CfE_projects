@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>SCHOOL MANAGEMENT</title>
+</head>
+<body>
+  <div class="container main">
+    <form  class="form">
+      <div>
+        <fieldset>
+          <legend>
+          <h3> get student info</h3>
+        </legend>
+        <div>
+          <label>Enter Student Id</label>
+          <input type="text" id="stid">
+         
+            <input type="button" class="btn" value="Get Id">
+        </div>
+      </fieldset>
+      <h1>Welcome Prospective student</h1>
+      <fieldset>
+      <legend><h3>Kindly Fill in your informations</h3>
+      </legend>
+      <div>
+      <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Please enter your name" required>
+      </div>
+    <div>
+      <label for="Age">Age:</label>
+        <input type="date" id="age" name="age" placeholder="Please enter your Age" required><br>
+    </div>
+    <div>
+        <label for="select">select gender:</label>
+      <select name="select" id="gender">
+        <option value="select">select</option>
+        <option value="M">Male</option>
+        <option value="F">Female</option>
+      </select>
+    </div>
+    <div>
+      <label for="name">Address:</label>
+     <input type="text" id="address" name="addresss" placeholder="Please enter your Address" required>
+  </div>
+  <div>
+    <label for="name">Tel:</label>
+   <input type="tel" id="tel" name="addresss" placeholder="Please enter your telephone-number" required>
+</div>
+    <div>
+       <label for="name">Class:</label>
+      <input type="text" id="sClass" name="name" placeholder="Please enter your class" required><br>
+   </div>
+   <div>
+          <label for="Age">Email:</label>
+            <input type="email" id="email" name="name" placeholder="Please enter your email" required><br>
+          </div>
+          <div>
+            <label for="name">School Fees:</label>
+           <input type="text" id="fees" name="fees" placeholder="school fees" required>
+        </div>
+            <label for="select">Paid fees:</label>
+          <select name="select" id="feesPaid">
+            <option value="select">select</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        <div>
+      </div>
+      <div>
+        <input type="button" class="btn" value="Create Student Account" onclick="regStudent()">
+      </div>
+    </fieldset>
+      <fieldset> 
+      <legend>
+        <h3>Modify Informations</h3>
+      </legend>
+      <div>
+      <label>Enter Student Id</label>
+      <input type="text" id="">
+    </div>
+    <div>
+      <label>modifyable field</label>
+      <input type="text" id="">
+    </div>
+    <div>
+      <label>Enter Student Id</label>
+      <input type="text" id="">
+    </div>
+    </fieldset>
+  </div>
+</body>
+</html>
