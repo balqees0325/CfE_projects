@@ -80,16 +80,34 @@
       </legend>
       <div>
       <label>Enter Student Id</label>
-      <input type="text" id="">
+      <input type="text" id="Id">
     </div>
     <div>
-      <label>modifyable field</label>
-      <input type="text" id="">
+      <select id="key">modifyable field
+      <option value="">Select options</option>
+      <option value="Name">Enter Name</option>
+      <option value="Age">Enter Age</option>
+      <option value="Gender">Enter Gender</option>
+      <option value="Class">Enter Class</option>
+      <option value="Address">Enter Add</option>
+      <option value="Fees">Enter Fees</option>
+      <option value="Phone">Enter contact No:</option>
+    </select>
+      <input type="text" id="replace" placeholder="Enter new value">
     </div>
     <div>
-      <label>Enter Student Id</label>
-      <input type="text" id="">
+      <input  type="button" class="btn" value="Modify" onclick="modifyStInfo();">
     </div>
+    </fieldset>
+    <fieldset>
+      <legend>delete student</legend>
+      <div>
+        <label>Enter Student Id</label>
+        <input type="text" id="delst">
+      </div>
+      <div>
+        <input  type="button" class="btn" value="Delete" onclick="deleteStAct();">
+      </div>
     </fieldset>
   </div>
 </body>

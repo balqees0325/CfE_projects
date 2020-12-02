@@ -29,7 +29,21 @@ form button {
   border: 1px solid #80cfa9;
   border-radius: 4px;
 }
-form button {
+button {
   color: #80cfa9;
   background-color: #f6f6f6;
+}
+button.clear {
+  margin: 100px auto;
+  padding: 0.5rem;
+  border: 1px solid #80cfa9;
+  border-radius: 4px;
+}
+button:hover {
+  background-color: #90e8bc;
+  color: #444;
+  cursor: pointer;
+}
+div ul {
+  display: flex;
 }

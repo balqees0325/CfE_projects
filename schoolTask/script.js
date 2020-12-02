@@ -1,6 +1,3 @@
-
-
-
 const school = {
   staffs:  [],
   students: [],
@@ -32,10 +29,8 @@ function studentId() {
 
     document.getElementById('replace').value="";
     document.getElementById('stid').value="";
-    document.getElementById('skey').value="";
-    document.getElementById('sreplace').value="";
-    document.getElementById('mfid').value="";
-    document.getElementById('dfid').value="";
+    document.getElementById('key').value="";
+   
 }
 
   function regStudent(){
@@ -56,12 +51,12 @@ function studentId() {
       Address: stAddress.value,
       Email: stEmail.value,
       Fees:stFees.value,
-      FeesPaid: FeesPaid+= parseInt(stFees.value),
+      FeesPaid: FeesPaid += parseInt(stFees.value),
       Phone: stPhone.value,
       ID: studentId()
 })
 console.log(student);
-document.getElementById('stid').innerHTML= 'Student ID is: ' + stid.value
+//document.getElementById('stid').innerHTML= 'Student ID is: ' + stid.value
     setTimeout(clearField,1000)
   };
 
@@ -69,10 +64,10 @@ document.getElementById('stid').innerHTML= 'Student ID is: ' + stid.value
 //get student information
   function getStInfo(){
     let id=document.getElementById('stid').value
-    let stu= school.students.find( student => student.stid == id);
-    if (school.students.find(student => student.stid == id)){
+    let stu= school.students.find(student => student.ID == id);
+    if (school.students.find(student => student.ID == id)){
         console.log(stu)
-    }else {console.log(" SORRY THE DATA SUPPLIED IS NOT A VALID STUDENT-ID")}    
+    }else {console.log("SORRY THE DATA SUPPLIED IS NOT A VALID STUDENT-ID")}    
 }
 
 
@@ -84,29 +79,26 @@ function modifyStInfo(){
   let repl = document.getElementById('replace').value
   //console.log(repl);
 
-  let id=document.getElementById('mdid').value
+  let id=document.getElementById('Id').value
   //console.log(id);
 
-  let stu= school.students.find( student => student.stid == id);
-  //console.log(stu);
-
-  if (school.students.find(student => student.sdid == id)){     
+  let stu= school.students.find(student => student.ID == id);
+    if (school.students.find(student => student.ID == id)){     
       stu[keys]=repl; 
-      console.log(stu)
-      return(stu)  
+      console.log(stu) 
   }else{console.log("NOT A VALID STUDENT-ID")} 
  setTimeout(clearField,1000)
 }
   
 // Delete student: 
-function deleteSdAct(){
-  let id=document.getElementById('ddid').value
-  let den = school.students;
-  let stu= school.students.find( student => student.stid == id);
-      if (school.students.find(student => student.stid == id)){              
-  let index= den.indexOf(stu);
-  den.splice(index,1)
-  console.log(school)
-  }else{console.log("NOT A VALID STUDENT-ID")} 
-  document.getElementById('ddid').value="";
+function deleteStAct(){
+  let id=document.getElementById('delst').value
+  student;
+  let stu= school.students.find(student => student.ID == id);
+    if (school.students.find(student => student.ID == id)){              
+  let index= student.indexOf(stu);
+  student.splice(index,1)
+  console.log(student);
+  }else{console.log("SORRY NOT A VALID STUDENT-ID")} 
+  document.getElementById('delst').value="";
 }

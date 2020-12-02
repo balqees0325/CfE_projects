@@ -12,29 +12,38 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
   </head>
   <body>
     <div class="main">
       <h1>APP TODO LIST</h1>
-      <form>
-        <input
-          type="text"
-          class="todo-input"
-          name="name"
-          placeholder="Name"
-          id="todo"
-        />
-        <button id="btn" type=" submit" class="todo-button">Add Item</button>
-      </form>
-      <div class="todo-container">
-        <ul id=" todo-list" class="todo-list">
-          <li></li>
-          <button></button>
-          <button><i class="far fa-edit"></i></button>
-          <button></button>
-        </ul>
+      <div class="form">
+        <div id="message"></div>
+        <form onsubmit="return false">
+          <input
+            type="text"
+            class="todo-input"
+            name="name"
+            placeholder="Name"
+            id="todo-item"
+          />
+          <button
+            id="btn"
+            type="submit"
+            class="todo-button"
+            onclick="addTodo();"
+          >
+            Add Item
+          </button>
+        </form>
+      </div>
+      <div>
+        <ul id="item-list"></ul>
+      </div>
+      <div>
+        <button class="clear" onclick="clearItems();">Clear Item</button>
       </div>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
