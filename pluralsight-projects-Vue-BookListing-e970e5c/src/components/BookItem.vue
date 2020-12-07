@@ -9,7 +9,7 @@
     props: ['book'],
   }
 </script>
-<style lang="stylus" scoped>
+<style>
 ul {
   list-style-type: none;
   padding: 0;
