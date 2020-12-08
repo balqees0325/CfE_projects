@@ -12,6 +12,7 @@
     <ul>
       <book-item v-for='book in filteredBooks' :key='book.id' :book='book'></book-item>
     </ul>
+    <hr>
     <book-form @addBook='appendBook'></book-form>
   </div>
 </template>
