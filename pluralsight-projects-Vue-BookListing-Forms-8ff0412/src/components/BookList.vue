@@ -47,7 +47,7 @@ export default {
     filteredBooks() {
     return _.filter(this.books, ["ownership", this.holding]);
 }
-  }
+  },
   components: {
     BookItem,
     BookForm
