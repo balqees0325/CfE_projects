@@ -1,15 +1,17 @@
 <template>
-     <form v-on:submit.prevent ="bookSubmit(bookData);" class="" action="#" method="post">
+     <form v-on:submit.prevent ="bookSubmit(bookData)" class="" action="#" method="post">
     <input v-model='bookData.bookTitle' type="text" name="title" value="" placeholder="Book Title">
     <input 
    v-model='bookData.bookAuthor' type="text" name="author" value="" placeholder="Book Author">
    <div>
      <label for="FinishedReading">Finished Reading</label>
-    <input v-model='bookData.finishedReading' type='checkbox'/>
+    <input type='checkbox' v-model='bookData.finishedReading'/>
+    </div>
+    <div>
     <label for="borrowed">borrowed</label>
-    <input v-model='bookData.ownership' value='borrowed'>
+    <input type='radio' value='borrowed' v-model='bookData.ownership'>
     <label for="bought">bought</label>
-    <input v-model='bookData.ownership' value='bought'>
+    <input v-model='bookData.ownership' type='radio' value='bought'>
 </div>
     <button type="submit" name="button">Add Book</button>
 </form>
@@ -17,7 +19,7 @@
 <script>
 export default {
   name: 'BookForm',
-  props: 'books',
+  props: ['books'],
   data() {
      return {
       bookData: {
