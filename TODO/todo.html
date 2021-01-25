@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo Do List App</title>
+    <script src="https://use.fontawesome.com/1e51dfab0e.js"></script>
+    <link rel="stylesheet" href="todo.css">
+</head>
+  <body>
+    <div class="container">
+      <h1>To Do List App</h1>
+
+      <div class="form">
+        <div id="message"></div>
+        <form action="" onsubmit="return false ">
+          <input type="text" id="item" placeholder="Item Name ..." />
+          <button type="submit" onclick="saveTodo();">Add Item</button>
+        </form>
+      </div>
+      <div id="item-list">
+        
+      </div>
+
+      <div>
+        <button onclick="clearItems();">Clear Item</button>
+
+      </div>
+    </div>
+
+</div>
+<script src="todo.js"></script>
+</body>
+</html>

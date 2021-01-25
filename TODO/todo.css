@@ -1,0 +1,142 @@
+*{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    margin: auto;
+    text-align: center;
+    font-family:'Roboto',"Helvetica Neue";
+}
+
+.container{
+  margin-top: 2rem;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+h1{
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #80cfa9;
+}
+
+input{
+    width: 80%;
+    height: 2rem;
+    border-radius: 3px;
+    padding-left: 0.4rem;
+    border: 1px solid #90e8bc;
+    outline: none;
+    margin-right: 0;
+
+}
+button{
+    padding: 0.3rem;
+    margin-left: 0;
+    border-radius: 3px;
+    border: 1px solid #90e8bc;
+    color: #86ccac;
+    background-color: rgb(245, 247, 248);
+    outline: none;
+    height: 2rem;
+}
+
+button:hover{
+    background-color: #90e8bc;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.todo-item{
+margin-left: 0.3rem;
+margin-right: 0.3rem;
+margin-bottom: 0.3rem;
+display: flex;
+justify-content: space-between;
+
+}
+
+#item-list{
+  margin: auto;
+  text-align: center;
+  margin-top: 2rem;
+  width:  93%;
+}
+
+.complete-todo{
+    color: #86ccac !important;
+
+}
+
+.edit-todo{
+    color:rgb(196, 107, 7);
+}
+.fa-check-circle{
+    color: #86ccac;
+}
+
+.fa{
+    padding-left: 0.3rem;
+}
+
+.delete-todo{
+    color: red;
+    opacity: 0.7;
+
+}
+#message{
+    color: red;
+    margin-bottom: 0.5rem;
+    opacity: 0.7;
+}
+#edit-message{
+    color: rgb(255, 166, 0);
+    margin-bottom: 0.5rem;
+    opacity: 0.7;  
+}
+.visibility{
+opacity: 0.5;
+}
+
+.strike{
+    text-decoration: line-through;
+}
+
+.hide{
+    display: none;
+}
+
+.edit-form{
+    width: 100%;
+}
+
+.edit-form input{
+    width: 65%;
+}
+.edit-form form{
+    width: 100%;
+}
+
+.accordion{
+    margin-bottom: 0.5rem;
+}
+@media screen and (max-width: 860px){
+
+    .container{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    input{
+        width: 60%;
+    }
+}
